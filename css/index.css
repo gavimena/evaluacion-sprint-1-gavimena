@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik';
+}
+
+.fixedHeader {
+  position: fixed;
+  display: flex;
+  background-color: #fff;
+  color: #555555;
+  width: 100%;
+  height: auto;
+}
+
+.logoAdalab {
+  display: flex;
+}
+
+.menuOptions {
+  display: flex;
+  align-items: center;
+}
+
+.adalabImage {
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+}

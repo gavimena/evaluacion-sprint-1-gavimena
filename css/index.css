@@ -1,31 +1,48 @@
 body {
   margin: 0;
-  padding: 0;
   font-family: 'Rubik';
 }
 
 .fixedHeader {
   position: fixed;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
   background-color: #fff;
   color: #555555;
   width: 100%;
-  height: auto;
+  height: 100px;
 }
 
 .logoAdalab {
-  display: flex;
+  width: 80%;
+  padding: 10px 0px 10px 20px;
 }
 
 .menuOptions {
-  display: flex;
-  align-items: center;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  padding-right: 20px;
 }
 
-.adalabImage {
-  width: 100%;
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #555555;
+}
+
+a:hover {
+  color: #3CDBC0;
+  text-decoration: underline;
 }
 
 ul {
   list-style-type: none;
+}
+
+.adalabImage {
+  margin-top: 100px;
+  width: 100%;
 }

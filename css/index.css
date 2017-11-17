@@ -1,10 +1,11 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Rubik';
   box-sizing: border-box;
-  /*min-height: 100vh;*/
   display: flex;
   flex-direction: column;
+  min-height: 100vw;
 }
 
 .fixedHeader {
@@ -52,54 +53,70 @@ ul {
 }
 
 .background {
-    margin-top: 100px;
-    /*position: relative;*/
-    background: url('img/bannerAdalab.jpeg');
-    background-position:center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    /*flex:1;*/
-    /*flex-direction: row;*/
-    /*align-items: flex-start;*/
-    /*text-align: center;*/
+  background: url('img/bannerAdalab.jpeg') no-repeat;
+  background-size: cover;
+  background-position: center 0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  margin-top: 100px; 
 }
 
-/*.text {
-    width: 100px;
-    display: flex;
-  }*/
-
 .text {
-    /*position: absolute;*/
-    top: 200px;
-    left: 16px;
-    /*z-index: 3;*/
+    margin-top: 100px;
+    margin-left: 20px;
     font-weight: bold;
     font-size: 50px;
     color: #555555;
   }
 
-/*.adalabImage {
-  margin-top: 100px;
-  width: 100%;
-}*/
+.textFooter {
+  color: #555555;
+  margin-left: 80px;
+  font-size: 13px;
+}
+
+.linkFooter {
+  color: #aaa;
+  font-size: 13px;
+}
+
+.linkFooter:hover {
+  color: #3CDBC0;
+  text-decoration: underline;
+}
 
 footer {
   top 0;
-  background-color: #252525;
-  height: 100px;
+  background-color: #000;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-/*p {
-  color: #555555;
-  padding: 20px;
-  text-align: left;
-}*/
-
-.textForm {
+.containerForm {
   margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerForm p {
+  margin: 70px;
+  font-size: 14px;
+  color: #555555;
+  text-align: left;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+label {
+
 }

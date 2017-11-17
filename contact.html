@@ -18,17 +18,29 @@
     <main class="containerForm">
       <p>En Adalab estamos encantados de proporcionarte la información que necesitas. Hemos creado formularios específicos para inscribirte como alumna, para ser voluntario/a y para empresas que quieran acoger a nuestras alumnas. Para otras consultas completa el siguiente formulario y nos pondremos en contacto contigo. Gracias. </p>
       <form class="form" action="index.html" method="post">
-        <label for="name">Nombre</label>
-        <input type="text" name="name">
-        <label for="lastName">Apellidos</label>
-        <input type="text" name="lastName" value="">
-        <label for="email">Correo electrónico</label>
-        <input type="email" name="email" value="">
-        <label for="telephone">Teléfono</label>
-        <input type="tel" name="telephone" value="">
-        <label for="message">Mensaje</label>
-        <textarea name="message" rows="8" cols="80"></textarea>
-        <button type="button" name="button">Enviar</button>
+        <div class="formName">
+          <label for="name">Nombre</label>
+          <input type="text" name="name">
+        </div>
+        <div class="formLastName">
+          <label for="lastName">Apellidos</label>
+          <input type="text" name="lastName" value="">
+        </div>
+        <div class="formEmail">
+          <label for="email">Correo electrónico</label>
+          <input type="email" name="email" value="">
+        </div>
+        <div class="formTelephone">
+          <label for="telephone">Teléfono</label>
+          <input type="tel" name="telephone" value="">
+        </div>
+        <div class="formMessage">
+          <label for="message">Mensaje</label>
+          <textarea name="message" rows="8" cols="80"></textarea>
+        </div>
+        <div class="formButton">
+          <button type="button" name="button">Enviar</button>
+        </div>
       </form>
     </main>
     <footer>

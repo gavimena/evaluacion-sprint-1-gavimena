@@ -22,7 +22,7 @@ body {
   padding: 10px 0px 10px 20px;
 }
 
-.fixedHeaderContact {
+.withBorder {
   border-bottom: solid 1px #e0e0e0;
 }
 
@@ -178,7 +178,7 @@ textarea {
   }
 }
 
-@media (max-width: 500px) {
+@media (min-width: 0px) and (max-width: 500px) {
   .logoAdalab {
     width: 50%;
   }

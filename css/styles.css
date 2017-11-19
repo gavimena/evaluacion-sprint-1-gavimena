@@ -199,6 +199,14 @@ textarea {
     min-height: 63vh;
  }
 
+.containerForm {
+    padding-top: 100px;
+}
+
+.form {
+  padding: 25px;
+}
+
   footer {
     height: 70px;
   }

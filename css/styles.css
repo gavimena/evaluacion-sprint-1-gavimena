@@ -74,6 +74,11 @@ ul {
     line-height: 1.2em;
 }
 
+.containerAlumnas {
+    display: flex;
+    justify-content: center;
+}
+
 .textFooter {
   color: #555555;
   margin-left: 80px;
@@ -154,6 +159,15 @@ textarea {
     align-items: center;
     justify-content: space-between;
   }
+}
+
+@media all and (min-width: 768px) {
+  .containerAlumnas ul {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+  }
+
 }
 
 @media all and (min-width: 501px) and (max-width: 900px) {
